@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 12px;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+/* ************** */
+
+.toDo {
+    width: 50%;
+    min-height: 400px;
+    background-color: #2b2a2a;
+    margin: 20px auto;
+    padding: 50px;
+}
+
+/* ************** */
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.toDo>#addList {
+    width: 90%;
+    margin-right: 2%;
+    padding: 10px;
+}
+
+.toDo>.add {
+    width: 7%;
+    background-color: #191818;
+    height: 40px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+}
+
+/* ************** */
+
+input[type=text],
+li {
+    margin-bottom: 20px;
+    outline: 0;
+    border: 0;
+    height: 100%;
+    background-color: #191818;
+}
+
+.liTag {
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: 0;
+    border: 0;
+    height: 100%;
+    background-color: #191818;
+    width: 87%;
+}
+
+/* ************** */
+
+.listToDo {
+    list-style: none;
+}
+
+.listToDo>.liTag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #191818;
+    margin-bottom: 20px;
+    height: 40px;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.icon>.ico {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #2b2a2a;
+    font-size: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
